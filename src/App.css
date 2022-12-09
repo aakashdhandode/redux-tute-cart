@@ -1,11 +1,34 @@
 .App {
   text-align: center;
 }
-
+img{    width: 115px;}
+.cart-wrapper{
+  height: auto;
+  width: 338px;
+  border: 1px solid black;
+  padding: 21px 0;
+}
+.button-wrapper button{
+  background-color: red;
+  border: 0px;
+  padding: 10px;
+  border-radius: 4px;
+  color: White;
+}
 .App-logo {
   height: 40vmin;
   pointer-events: none;
 }
+.cart-item h5{
+  float: right;
+  color: red;
+  position: absolute;
+  /* text-align: end; */
+  right: 55px;
+  font-size: 20px;
+  top: 0;
+}
+
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
